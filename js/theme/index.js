@@ -14,6 +14,7 @@ import contentTheme from './components/Content'
 import h1Theme from './components/H1'
 import h3Theme from './components/H3'
 import headerTheme from './components/Header'
+import iconTheme from './components/Icon'
 import itemTheme from './components/Item'
 import modalTheme from './components/Modal'
 import textTheme from './components/Text'
@@ -36,6 +37,12 @@ const theme = (): Theme => {
     },
     'NativeBase.Header': {
       ...headerTheme()
+    },
+    'NativeBase.Icon': {
+      ...iconTheme()
+    },
+    'NativeBase.IconNB': {
+      ...iconTheme()
     },
     'NativeBase.Item': {
       ...itemTheme()

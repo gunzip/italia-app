@@ -22,6 +22,11 @@ export default (): Theme => {
       backgroundColor: variables.contentBackground
     },
 
+    '.centered': {
+      flexDirection: 'row',
+      justifyContent: 'center'
+    },
+
     '.footer': {
       paddingTop: variables.footerPaddingTop,
       paddingLeft: variables.footerPaddingLeft,

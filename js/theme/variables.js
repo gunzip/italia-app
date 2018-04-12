@@ -32,6 +32,7 @@ const customVariables = Object.assign(materialVariables, {
   brandPrimaryInverted: '#FFFFFF',
   brandGray: '#F5F6F7',
   brandLight: '#FCFDFF',
+  brandSuccess: '#00C5CA',
 
   // Font
   ...makeFontStyleObject(Platform.select),
@@ -39,6 +40,7 @@ const customVariables = Object.assign(materialVariables, {
   lineHeight: 24,
 
   // Icon
+  iconBigFontSize: 48,
   iconFamily: 'Entypo',
 
   // Content
